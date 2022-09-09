@@ -31,6 +31,9 @@
                     case 4:
                         TheBar();
                         break;
+                    case 5:
+                        Sirisha();  
+                        break;
                     case 9:
                         keepLooping = false;
                         break;
@@ -55,6 +58,7 @@
                 Console.WriteLine("2: Give me code love");
                 Console.WriteLine("3: Greet user");
                 Console.WriteLine("4: The bar");
+                Console.WriteLine("5: =D");
                 Console.WriteLine("9: Exit program");
             }
 
@@ -110,6 +114,11 @@
 
 
 
+            }
+
+            static void Sirisha()
+            {
+                Console.WriteLine("Hello Sirisha  Hope you are fine");
             }
             // if int or a string is null to the program use the ? behind the variable type
             //string? message = "Alex";
